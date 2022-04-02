@@ -1,7 +1,7 @@
 @extends('admin_layouts/main')
 @section('pageSpecificCss')
-<link href="{{asset('assets/bundles/summernote/summernote-bs4.css')}}" rel="stylesheet">
-<link href="{{asset('assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/summernote/summernote-bs4.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
 
 @stop
 
@@ -38,8 +38,8 @@
 @stop
 
 @section('pageSpecificJs')
-<script src="{{asset('assets/bundles/summernote/summernote-bs4.js')}}"></script>
-<script src="{{asset('assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/summernote/summernote-bs4.js')}}"></script>
+<script src="{{asset('public/assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
 
     <script>
         $('.summernote').summernote({

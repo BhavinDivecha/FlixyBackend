@@ -1,9 +1,9 @@
 @extends('admin_layouts/main')
 @section('pageSpecificCss')
-<link href="{{asset('assets/bundles/datatables/datatables.min.css')}}" rel="stylesheet">
-<link href="{{asset('assets/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
-<link href="{{asset('assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
-<link href="{{asset('assets/bundles/jquery-selectric/selectric.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/datatables/datatables.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/jquery-selectric/selectric.css')}}" rel="stylesheet">
 
 <style type="text/css">
 .custom-switch-input:checked ~ .custom-switch-indicator:before {
@@ -151,9 +151,9 @@
 
 @endsection
 @section('pageSpecificJs')
-<script src="{{asset('assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
-<script src="{{asset('assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
-<script src="{{asset('assets/bundles/jquery-selectric/jquery.selectric.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/jquery-selectric/jquery.selectric.min.js')}}"></script>
 <script>
 
   $(document).ready(function() {

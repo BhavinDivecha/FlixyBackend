@@ -1,9 +1,9 @@
 @extends('admin_layouts/main')
 @section('pageSpecificCss')
-<link href="{{asset('assets/bundles/datatables/datatables.min.css')}}" rel="stylesheet">
-<link href="{{asset('assets/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/datatables/datatables.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/datatables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css')}}" rel="stylesheet">
 
-<link rel="stylesheet" href="{{asset('assets/bundles/izitoast/css/iziToast.min.css')}}">
+<link rel="stylesheet" href="{{asset('public/assets/bundles/izitoast/css/iziToast.min.css')}}">
 
 <style type="text/css">
 .view {
@@ -209,11 +209,11 @@ input:checked + .slider:before {
 
 @section('pageSpecificJs')
 
-<script src="{{asset('assets/bundles/datatables/datatables.min.js')}}"></script>
-<script src="{{asset('assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js')}}"></script>
-<script src="{{asset('assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
-<script src="{{asset('assets/js/page/datatables.js')}}"></script>
-<script src="{{asset('assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/datatables/datatables.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('public/assets/js/page/datatables.js')}}"></script>
+<script src="{{asset('public/assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
 
 <script>
 $(document).ready(function (){

@@ -344,6 +344,6 @@
 
 @endsection
 @section('pageSpecificJs')
-<script src="{{asset('assets/bundles/chartjs/chart.min.js')}}"></script>
-<script src="{{asset('assets/dist/js/custom.js')}}"></script>
+<script src="{{asset('public/assets/bundles/chartjs/chart.min.js')}}"></script>
+<script src="{{asset('public/assets/dist/js/custom.js')}}"></script>
 @stop

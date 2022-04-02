@@ -8,11 +8,11 @@
   <meta name="author" content="">
   <title>Flix Movie</title>
 
-  <link href="{{asset('assets/css/app.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/bundles/bootstrap-social/bootstrap-social.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-   <link href="{{asset('assets/css/components.css')}}" id="theme"  rel="stylesheet">
-  <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/app.min.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/bundles/bootstrap-social/bootstrap-social.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+   <link href="{{asset('public/assets/css/components.css')}}" id="theme"  rel="stylesheet">
+  <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet">
   <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
  <style>
 
@@ -48,9 +48,9 @@
     </div>
   </div>
   <!-- <script src="{{asset('plugins/bower_components/jquery/dist/jquery.min.js') }}"></script> -->
-  <script src="{{asset('assets/js/app.min.js') }}"> </script>
-  <script src="{{asset('assets/js/scripts.js') }}"> </script>
-  <script src="{{asset('assets/js/custom.js') }}"></script>
+  <script src="{{asset('public/assets/js/app.min.js') }}"> </script>
+  <script src="{{asset('public/assets/js/scripts.js') }}"> </script>
+  <script src="{{asset('public/assets/js/custom.js') }}"></script>
 
 </body>
 </html>

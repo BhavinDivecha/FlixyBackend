@@ -1,6 +1,6 @@
 @extends('admin_layouts/main')
 @section('pageSpecificCss')
-<link href="{{asset('assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
 @stop
 @section('content')
 
@@ -11,7 +11,7 @@
         <div class="card author-box">
           <div class="card-body">
             <div class="author-box-center">
-              <img alt="image" style="    width: 120px; height: 120px;" src="@if($data->profile_image){{url(env('DEFAULT_IMAGE_URL').$data->profile_image)}}@else{{asset('assets/dist/img/default.png')}}@endif" class="rounded-circle author-box-picture user-profile">
+              <img alt="image" style="    width: 120px; height: 120px;" src="@if($data->profile_image){{url(env('DEFAULT_IMAGE_URL').$data->profile_image)}}@else{{asset('public/assets/dist/img/default.png')}}@endif" class="rounded-circle author-box-picture user-profile">
               <div class="clearfix" style="margin-top: 20px;"> <button type="button" data-toggle="modal" data-target="#editModal" class="btn btn-primary btn-lg" >Edit Profile </button> </div>
               <div class="author-box-name" style="margin-top: 10px;">
                 <h5>{{$data->first_name}} {{$data->last_name}}</h5>
@@ -123,7 +123,7 @@
           </div>
           <input type="hidden" name="hdn_profile_image" id="hdn_profile_image" value="{{$data->profile_image}}">
           <div class="form-group">
-            <p id="preview1" style="text-align: center;"><img src="@if($data->profile_image){{url(env('DEFAULT_IMAGE_URL').$data->profile_image)}}@else{{asset('assets/dist/img/default.png')}}@endif" width="100" height="100" id="preview_img_1" style=" margin-right: 5px;"/></p>
+            <p id="preview1" style="text-align: center;"><img src="@if($data->profile_image){{url(env('DEFAULT_IMAGE_URL').$data->profile_image)}}@else{{asset('public/assets/dist/img/default.png')}}@endif" width="100" height="100" id="preview_img_1" style=" margin-right: 5px;"/></p>
           </div>
   
           <input type="submit" class="btn btn-primary m-t-15 waves-effect" value="Save" id="language_from_btn" >
@@ -137,11 +137,11 @@
 
 @section('pageSpecificJs')
 
-<script src="{{asset('assets/bundles/datatables/datatables.min.js')}}"></script>
-<script src="{{asset('assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js')}}"></script>
-<script src="{{asset('assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
-<script src="{{asset('assets/js/page/datatables.js')}}"></script>
-<script src="{{asset('assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/datatables/datatables.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/datatables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('public/assets/js/page/datatables.js')}}"></script>
+<script src="{{asset('public/assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
 
 <script>
 $(document).ready(function (){

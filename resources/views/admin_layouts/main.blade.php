@@ -13,12 +13,12 @@
 
   @yield('pageSpecificCss')
 
-  <link href="{{asset('assets/css/app.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/css/components.css')}}" rel="stylesheet" type="text/css" />
-  <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
-  <link rel='shortcut icon' type='image/x-icon' href="{{asset('assets/img/favicon.ico')}}" />
-  <link rel="stylesheet" href="{{asset('assets/bundles/sweetalert/css/sweetalert.css')}}">
+  <link href="{{asset('public/assets/css/app.min.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('public/assets/css/components.css')}}" rel="stylesheet" type="text/css" />
+  <link href="{{asset('public/assets/css/custom.css')}}" rel="stylesheet">
+  <link rel='shortcut icon' type='image/x-icon' href="{{asset('public/assets/img/favicon.ico')}}" />
+  <link rel="stylesheet" href="{{asset('public/assets/bundles/sweetalert/css/sweetalert.css')}}">
   <script>  var user_type = {{Session::get('admin_id')}};
     </script>
 </head>
@@ -101,9 +101,9 @@
 </div>
 
 
-<script src="{{asset('assets/js/app.min.js')}}"></script>
-<script src="{{asset('assets/dist/js/jquery.validate.js')}}"></script>
-<script src="{{asset('assets/bundles/sweetalert/js/sweetalert.js')}}"></script>
+<script src="{{asset('public/assets/js/app.min.js')}}"></script>
+<script src="{{asset('public/assets/dist/js/jquery.validate.js')}}"></script>
+<script src="{{asset('public/assets/bundles/sweetalert/js/sweetalert.js')}}"></script>
 <script type="text/javascript">
         $.ajaxSetup({
             headers: {
@@ -132,7 +132,7 @@
 
     @yield('pageSpecificJs')
 
-    <script src="{{asset('assets/js/scripts.js')}}"></script>
-<script src="{{asset('assets/js/custom.js')}}"></script>
+    <script src="{{asset('public/assets/js/scripts.js')}}"></script>
+<script src="{{asset('public/assets/js/custom.js')}}"></script>
 </body>
 </html>

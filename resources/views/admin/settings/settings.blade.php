@@ -1,6 +1,6 @@
 @extends('admin_layouts/main')
 @section('pageSpecificCss')
-<link href="{{asset('assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
+<link href="{{asset('public/assets/bundles/izitoast/css/iziToast.min.css')}}" rel="stylesheet">
 
 <style type="text/css">
   .borderwrap {
@@ -182,8 +182,8 @@ input:checked + .slider:before {
 
 @section('pageSpecificJs')
 
-<script src="{{asset('assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
-<script src="{{asset('assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{asset('public/assets/bundles/izitoast/js/iziToast.min.js')}}"></script>
 <script>
 $(document).ready(function (){
 
